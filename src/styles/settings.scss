@@ -1,0 +1,81 @@
+/**
+ * src/styles/settings.scss
+ *
+ * Configures SASS variables and Vuetify overwrites
+ */
+
+// https://vuetifyjs.com/features/sass-variables/`
+// @use 'vuetify/settings' with (
+//   $color-pack: false
+// );
+.button-color {
+    background-color: #bead79 !important;
+    color: white !important;
+  }
+  .button-color:hover {
+    background-color: #1a3c59 !important;
+  }
+  .v-card--reveal {
+    align-items: center;
+    bottom: 0;
+    justify-content: center;
+    opacity: 0.9;
+    position: absolute;
+    width: 100%;
+  }
+  .container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+  .centered {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .homeFont {
+    font-size: 5rem;
+    line-height: 6rem;
+  }
+  .button {
+    padding-top: 1.5rem !important;
+    width: 20% !important;
+    padding-bottom: 2.5rem !important;
+    background-color: white !important;
+    color: black !important;
+  }
+  .centered-button {
+    position: relative;
+    top: 13rem;
+  }
+  lite-youtube.lyt-activated {
+    cursor: unset;
+  }
+  
+  lite-youtube {
+    background-color: #000;
+    position: relative;
+    display: block;
+    contain: content;
+    background-position: center center;
+    background-size: cover;
+    cursor: pointer;
+    max-width: 100%;
+  }
+  .card-border {
+    border-top: 5px solid #1a3c59 !important;
+  }
+  iframe {
+    /* overflow-margin: content-box !important; */
+    border-width: 0px;
+    border-style: inset;
+    border-color: initial;
+    border-image: initial;
+    overflow: clip !important;
+  }
+  .vl {
+    border-left: 1px solid green !important;
+    /* height: 500px !important; */
+  }
